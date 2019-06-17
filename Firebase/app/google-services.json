@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "739854866423",
+    "firebase_url": "https://fir-baru-2baa0.firebaseio.com",
+    "project_id": "fir-baru-2baa0",
+    "storage_bucket": "fir-baru-2baa0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:739854866423:android:d2361127c9d90a75",
+        "android_client_info": {
+          "package_name": "com.battistradadeveloper.firebasebaru"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "739854866423-85hl7u67b2r7jb8a4m1lgu3s5qlro0ka.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.battistradadeveloper.firebasebaru",
+            "certificate_hash": "cec1aa3726b7820a84e763da5793799fc72ab67e"
+          }
+        },
+        {
+          "client_id": "739854866423-6tlr5iotartl3ueefvukk2mhapfl88fv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKrxRw-zN6RMaIoQKXYzhQxpfmwpHGWWA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "739854866423-6tlr5iotartl3ueefvukk2mhapfl88fv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
