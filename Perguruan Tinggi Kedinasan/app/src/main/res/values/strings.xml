@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="huehue">huehue</string>
+    <string name="menu_login">Menu Login</string>
+    <string name="username">USERNAME</string>
+    <string name="diisi_password">diisi password</string>
+    <string name="password">PASSWORD</string>
+    <string name="diisi_username">diisi username</string>
+    <string name="login">LOGIN</string>
+    <string name="register">REGISTER</string>
+    <string name="email_pemulihan">Email Pemulihan</string>
+    <string name="registerlagi">register</string>
+    <string name="email">Email</string>
+    <string name="re_password">Re-Password</string>
+    <string name="passwordlagi">Password</string>
+    <string name="username_anda">UserName anda</string>
+    <string name="selamat_datang_di_form_login">Selamat Datang di form Login</string>
+    <string name="stsn">stsn</string>
+    <string name="poltekim">Poltekim</string>
+    <string name="poltekip">poltekip</string>
+    <string name="detail">Detail</string>
+    <string name="tentangstan">Tentang = Politeknik Keuangan Negara Sekolah Tinggi Akuntansi Negara (PKN STAN) adalah
+        pendidikan tinggi kedinasan di bawah Badan Pendidikan dan Pelatihan Keuangan,  Kementerian Keuangan Republik Indonesia, yang menyelenggarakan pendidikan Program Studi Diploma bidang keuangan negara.</string>
+    <string name="tvstan1">Nama = STAN (Sekolah Tinggi Akuntansi Negara)</string>
+    <string name="tvstan2">\n Alamat = Jalan Bintaro Utama Sektor V Jurang Mangu Timur, Pondok Aren,Tangerang Selatan, Banten, Indonesia \n</string>
+    <string name="tvstan4">\n Website = stan.ac.id</string>
+    <string name="selamat_datang_di_form_Register">Selamat Datang di Form Registrasi</string>
+    <string name="emaillogin">Email</string>
+    <string name="AddData">Add</string>
+</resources>

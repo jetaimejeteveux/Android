@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Stmkg"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:src="@drawable/stmkg"
+                android:id="@+id/gbrStmkg"/>
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nama = STMKG (Sekolah Tinggi Meteorologi, Klimatologi dan Geofisika) \n"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"
+            android:id="@+id/tv_stmkg1"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Alamat = Pondok Aren, Tangerang, Banten\n"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"
+            android:id="@+id/tv_stmkg2"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"
+            android:text="Tentang = Sekolah Tinggi Meteorologi Klimatologi dan Geofisika (STMKG) adalah Perguruan Tinggi Kedinasan di lingkungan Badan Meteorologi, Klimatologi, dan Geofisika (BMKG), yang mempersiapkan kader tenaga ahli tingkat madya, guna mendukung tugas Badan Meteorologi, Klimatologi, dan Geofisika sebagai lembaga acuan utama di Indonesia dalam memberikan informasi meteorologi, klimatologi, geofisika, dan kualitas udara, yang secara teknis akademik, pembinaanya dilakukan oleh Menteri Pendidikan Nasional dan secara teknis operasional dilakukan oleh Kepala Badan Meteorologi, Klimatologi, dan Geofisika.\n"
+            android:id="@+id/tv_stmkg3"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="@android:color/black"
+            android:text="Website = stmkg.ac.id"
+            android:id="@+id/tv_stmkg4"/>
+
+
+
+    </LinearLayout>
+
+
+</ScrollView>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Stis"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:src="@drawable/stis"
+                android:id="@+id/gbrStis"/>
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nama = Politeknik Statistika STIS \n"
+            android:textSize="20sp"
+            android:textColor="@android:color/black"
+            android:id="@+id/tv_stis1"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Alamat = Jatinegara, DKI Jakarta \n"
+            android:textSize="20sp"
+            android:textColor="@android:color/black"
+            android:id="@+id/tv_stis2"/>
+
+        <TextView
+            android:id="@+id/tv_stis3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tentang = Sekolah Tinggi Ilmu Statistik (STIS) merupakan perguruan tinggi kedinasan program Diploma IV, yang dikelola oleh Badan Pusat Statistik (BPS) sejak tahun 1958, memberi kesempatan lulusan sekolah menengah umum jurusan IPA untuk dididik menjadi ahli statistik. STIS merupakan lembaga pendidikan tinggi kedinasan yang berfungsi untuk mengembangkan dan menyebarluaskan ilmu pengetahuan, khususnya di bidang statistika dan komputasi statistik dengan mendidik kader yang memiliki kemampuan akademik/profesional\n"
+            android:textColor="@android:color/black"
+            android:textSize="18sp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="@android:color/black"
+            android:text="Website = stis.ac.id"
+            android:id="@+id/tv_stis4"/>
+
+
+    </LinearLayout>
+
+
+</ScrollView>

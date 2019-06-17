@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Stsn"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:src="@drawable/stsn"
+                android:id="@+id/gbrStsn"/>
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nama = STSN (Sekolah Tinggi Sandi Negara) \n"
+            android:textSize="20sp"
+            android:textColor="@android:color/black"
+            android:id="@+id/tv_stsn1"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Alamat = Ciseeng,Bogor, Jawa Barat \n"
+            android:textSize="20sp"
+            android:textColor="@android:color/black"
+            android:id="@+id/tv_stsn2"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="@android:color/black"
+            android:text="Tentang = (STSN) Sekolah Tinggi Sandi Negara adalah Sebuah perguruan tinggi kedinasan di Indonesia yang diselenggarakan oleh Badan Siber dan Sandi Negara Republik Indonesia. STSN merupakan satu-satunya pendidikan tinggi persandian di Indonesia. STSN didirikan untuk memenuhi kebutuhan peningkatan kualitas SDM aparatur bidang siber dan sandi yang mampu menjawab tantangan perkembangan teknologi informasi dan ancaman terhadap pengamanan informasi rahasia negara\n"
+            android:id="@+id/tv_stsn3"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="@android:color/black"
+            android:text="Website = stsn.ac.id"
+            android:id="@+id/tv_stsn4"/>
+    </LinearLayout>
+
+
+
+
+</ScrollView>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Poltekim"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:src="@drawable/poltekim"
+                android:id="@+id/gbrPoltekim"/>
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nama = Politeknik Imigrasi \n"
+            android:textSize="20sp"
+            android:textColor="@android:color/black"
+            android:id="@+id/tv_poltekim1"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Alamat = Cinere, Kota Depok, Jawa Barat \n"
+            android:textSize="20sp"
+            android:textColor="@android:color/black"
+            android:id="@+id/tv_poltekim2"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:textColor="@android:color/black"
+            android:text="Tentang = POLTEKIM bertujuan mencetak kader pimpinan di lingkungan Ditjen imigrasi dan Depkumham masa depan di mana lulusannya kelak akan ditempatkan di seluruh kantor imigrasi di Indonesia dan atau di perwakilan imigrasi di luar negeri.\n"
+            android:id="@+id/tv_poltekim3"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="@android:color/black"
+            android:text="Website = poltekim.ac.id"
+            android:id="@+id/tv_poltekim4"/>
+    </LinearLayout>
+
+
+
+
+</ScrollView>

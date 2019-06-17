@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Poltekip"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:src="@drawable/poltekip"
+                android:id="@+id/gbrPoltekip"/>
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nama = Politeknik Ilmu Pemasyarakatan \n"
+            android:textSize="20sp"
+            android:textColor="@android:color/black"
+            android:id="@+id/tv_poltekip1"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Alamat = Jatinegara, DKI Jakarta \n"
+            android:textSize="20sp"
+            android:textColor="@android:color/black"
+            android:id="@+id/tv_poltekip2"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="@android:color/black"
+            android:text="Tentang = Akademi ini didirikan sebagai Kawah Candradimuka kader-kader Pemasyarakatan di Indonesia dan memiliki tugas pokok melaksanakan pendidikan pada jalur pendidikan profesional program Diploma III yang ditujukan pada keahliaan khusus di bidang Pemasyarakatan\n"
+            android:id="@+id/tv_poltekip3"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="@android:color/black"
+            android:text="Website = poltekip.ac.id"
+            android:id="@+id/tv_poltekip4"/>
+
+    </LinearLayout>
+
+
+
+</ScrollView>

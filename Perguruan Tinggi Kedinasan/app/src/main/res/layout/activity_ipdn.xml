@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Ipdn"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        o
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:src="@drawable/ipdn"
+                android:id="@+id/gbrIpdn"/>
+        </LinearLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nama = Institut Pemerintahan Dalam Negeri \n"
+            android:textSize="20sp"
+            android:textColor="@android:color/black"
+            android:id="@+id/tv_ipdn1"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Alamat = Jatinagnor, Sumedang, Jawa Barat\n"
+            android:textSize="20sp"
+            android:textColor="@android:color/black"
+            android:id="@+id/tv_ipdn2"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="@android:color/black"
+            android:text="Tentang = Institut Pemerintahan Dalam Negeri (Bahasa Inggris: Institute of Domestic Governance) disingkat IPDN adalah salah satu Lembaga Pendidikan Tinggi Kedinasan dalam lingkungan Departemen Dalam Negeri Republik Indonesia, yang bertujuan mempersiapkan kader pemerintah, baik di tingkat daerah maupun di tingkat pusat \n"
+            android:id="@+id/tv_ipdn3"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="20sp"
+            android:textColor="@android:color/black"
+            android:text="\n Website = ipdn.ac.id"
+            android:id="@+id/tv_ipdn4"/>
+
+    </LinearLayout>
+
+
+
+</ScrollView>
